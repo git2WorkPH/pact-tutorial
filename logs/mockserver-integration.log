@@ -1,0 +1,111 @@
+I, [2020-12-17T09:09:49.562484 #16332]  INFO -- : Registered expected interaction GET /dogs
+D, [2020-12-17T09:09:49.562807 #16332] DEBUG -- : {
+  "description": "a request for all dogs with the builder pattern",
+  "providerState": "I have a list of dogs",
+  "request": {
+    "method": "GET",
+    "path": "/dogs",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "json_class": "Pact::ArrayLike",
+      "contents": {
+        "dog": 1
+      },
+      "min": 1
+    }
+  },
+  "metadata": null
+}
+I, [2020-12-17T09:09:49.585867 #16332]  INFO -- : Received request GET /dogs
+D, [2020-12-17T09:09:49.585995 #16332] DEBUG -- : {
+  "path": "/dogs",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.21.0",
+    "Host": "localhost:61381",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2020-12-17T09:09:49.586414 #16332]  INFO -- : Found matching response for GET /dogs
+D, [2020-12-17T09:09:49.586509 #16332] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "json_class": "Pact::ArrayLike",
+    "contents": {
+      "dog": 1
+    },
+    "min": 1
+  }
+}
+I, [2020-12-17T09:09:49.600979 #16332]  INFO -- : Verifying - interactions matched
+I, [2020-12-17T09:09:49.610180 #16332]  INFO -- : Cleared interactions
+I, [2020-12-17T09:09:49.617961 #16332]  INFO -- : Registered expected interaction GET /dogs
+D, [2020-12-17T09:09:49.618142 #16332] DEBUG -- : {
+  "description": "a request for all dogs with the object pattern",
+  "providerState": "i have a list of dogs",
+  "request": {
+    "method": "GET",
+    "path": "/dogs",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "json_class": "Pact::ArrayLike",
+      "contents": {
+        "dog": 1
+      },
+      "min": 1
+    }
+  },
+  "metadata": null
+}
+I, [2020-12-17T09:09:49.626963 #16332]  INFO -- : Received request GET /dogs
+D, [2020-12-17T09:09:49.627213 #16332] DEBUG -- : {
+  "path": "/dogs",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.21.0",
+    "Host": "localhost:61381",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2020-12-17T09:09:49.627474 #16332]  INFO -- : Found matching response for GET /dogs
+D, [2020-12-17T09:09:49.627701 #16332] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "json_class": "Pact::ArrayLike",
+    "contents": {
+      "dog": 1
+    },
+    "min": 1
+  }
+}
+I, [2020-12-17T09:09:49.634649 #16332]  INFO -- : Verifying - interactions matched
+I, [2020-12-17T09:09:49.643256 #16332]  INFO -- : Cleared interactions
+I, [2020-12-17T09:09:49.652002 #16332]  INFO -- : Writing pact for Provider to /Users/christophercervantes/Documents/tutorial_workspace/pact-tutorial/pacts/consumer-provider.json
