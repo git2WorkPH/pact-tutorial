@@ -39,8 +39,9 @@ mocha_1.describe("The Dog API", function () {
     var dogService;
     var provider = new pact_1.Pact({
         // port,
-        log: path.resolve(process.cwd(), "logs", "mockserver-integration.log"),
+        log: path.resolve(process.cwd(), "logs", "pacts.log"),
         dir: path.resolve(process.cwd(), "pacts"),
+        logLevel: 'info',
         spec: 4,
         consumer: "Consumer",
         provider: "Provider",

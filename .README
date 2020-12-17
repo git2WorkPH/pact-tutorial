@@ -1,5 +1,16 @@
 
-Pact testing overView:
+Pact testing/ Contract testing overview:
+
+
+
+
+Why contract testing?
+
+- reliability
+- fast
+- relieve issues with version control. 
+When you have changes to request model or response model. With contract testing you can always go back and verify with the current working version.
+
 
 Implementation Process:
 
@@ -21,4 +32,6 @@ npm i @pact-foundation/pact@latest
 
 
 
+Reference: 
 
+https://codersociety.com/blog/articles/contract-testing-pact#writing-a-pact-consumer-test
